@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto.rs</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/style2.css">
+    <link rel="stylesheet" href="Css/style3.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-flex">
+            <div id="Logo">
+                <h1><span style="color: whitesmoke;">CRYPTO SRBIJA</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Početna</a>
+                    </li>
+                    <li>
+                        <a id="trenutna" href="usluge.html">Usluge</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="onama.html">O nama</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="izaberiKriptovalutu">
+        <h1 class="naslov1">Menjačnica</h1>
+        <h2 class="podnaslov">Izaberite kriptovalutu:</h2>
+        <div class="container-izaberiKriptovalutu">
+            <div class="kriptoblok">
+                <input type="radio" id="bitkoin" name="radio" value="bitkoin">
+                <img id="kriptologo5" src="Slike/58955-text-brand-trademark-bitcoin-area-hd-image-free-png.png" alt="">
+            </div>
+            <div class="kriptoblok">
+                <input type="radio" id="eth" name="radio" value="eth">
+                <img id="kriptologo6" src="Slike/59703-classic-bitcoin-virtual-cryptocurrency-currency-ethereum.png" alt="">
+            </div>
+            <div class="kriptoblok">
+                <input type="radio" id="litecoin" name="radio" value="litecoin">
+                <img id="kriptologo7" src="Slike/60342-logo-brand-litecoin-trademark-png-free-photo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pretvaranje">
+
+        <div class="container-pretvaranje">
+            <h2>Unesite količinu novca koju želite da razmenite:</h2>
+            <form>
+                <input type="number" name="unos" id="unos" autocomplete="off">
+                <button type="button" class="dugme" onclick="konvertuj()">Konvertuj</button>
+                <input type="number" name="unos1" id="unos1" autocomplete="off" step="any">
+            </form>
+        </div>
+    </section>
+
+    <section id="rezervacija">
+        <h1 class="naslov1">Zakažite rezervaciju</h1>
+        <div class="container-rezervacija">
+            <div class="forme">
+                <form id="unosImena">
+                    <label for="ime">Unesite ime:</label>
+                    <input type="text" name="ime" id="ime" autocomplete="off">
+                </form>
+                <form id="unosPrezimena">
+                    <label for="password">Unesite sifru:</label>
+                    <input type="password" name="password" id="password" autocomplete="off">
+                </form>
+                <form id="unosEmaila">
+                    <label for="email ">Unesite email:</label>
+                    <input type="email" name="email " id="email" autocomplete="off">
+                </form>
+            </div>
+            <button type="button" id="potvrdiUnos" class="dugme" onclick="provera()">Potvrdi</button>
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>Crypto menjacnica Srbija, Copyrigth &copy; 2020.</p>
+    </footer>
+    </div>
+
+
+
+    <script src="Skripte/script.js "></script>
+
+</body>
+
+</html>

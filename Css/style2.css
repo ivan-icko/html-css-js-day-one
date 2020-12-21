@@ -1,0 +1,102 @@
+.container-tekst {
+    display: flex;
+    align-items: center;
+}
+
+#prvi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    max-width: 1000px;
+    padding: 20px 40px;
+}
+
+#prvi #drugiPodnaslov {
+    color: orange;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#prvi #prviPodnaslov {
+    color: orange;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#drugi {
+    background-color: orange;
+    max-width: 400px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: white;
+    margin-right: 10px;
+    box-shadow: 2px black;
+}
+
+#drugi p {
+    padding: 0px 20px;
+}
+
+.naslov1 {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.naslov2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+/*-----------------------------------------------*/
+
+#kontakt {
+    border-top: 2px orange solid;
+}
+
+#kontakt h1 {
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#container-kontakt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.blokovi {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.blokovi h2 {
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.blokovi p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#ikonice {
+    height: 110px;
+    width: auto;
+}

@@ -1,0 +1,112 @@
+#izaberiKriptovalutu h1 {
+    border-bottom: 2px orange solid;
+    padding: 10px 0px;
+}
+
+.podnaslov {
+    color: orange;
+    padding: 50px 0px 50px 150px;
+}
+
+.container-izaberiKriptovalutu h1 {
+    text-align: center;
+}
+
+.container-izaberiKriptovalutu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px orange solid;
+    padding: 0px 100px;
+}
+
+.container-izaberiKriptovalutu .kriptoblok {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+img {
+    cursor: pointer;
+}
+
+
+/*------------------------------------------------------------*/
+
+.container-pretvaranje {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px orange solid;
+    padding: 20px 100px;
+}
+
+.container-pretvaranje h2 {
+    color: orange;
+}
+
+.container-pretvaranje input[type="number"] {
+    height: 30px;
+    width: 200px;
+}
+
+
+/*Ovo smo na internetu nasli da bi sklonili strelice iz input polja*/
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/*------------------------------------------------------------*/
+
+#rezervacija h1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-rezervacija {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-rezervacija form {
+    padding: 0px 20px;
+}
+
+.forme {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container-rezervacija label {
+    color: orange;
+    font-size: 25px;
+}
+
+.container-rezervacija input {
+    height: 30px;
+    width: 200px;
+}
+
+#kriptologo5,
+#kriptologo7 {
+    max-height: 300px;
+    width: auto;
+}
+
+#kriptologo6 {
+    max-height: 300px;
+    width: auto;
+}

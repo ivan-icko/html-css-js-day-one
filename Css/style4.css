@@ -1,0 +1,22 @@
+.blog {
+    padding: 0px 50px;
+}
+
+.blog h3 {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 0px;
+    border-bottom: 2px orange solid;
+}
+
+.blog p {
+    color: white;
+    padding-top: 20px;
+}
+
+.blogovi {
+    border-bottom: 2px orange solid;
+    padding-bottom: 10px;
+}
