@@ -11,4 +11,4 @@ I keep its rough edges on full display as souvenirs:
 
 These little mistakes make me smile now. They remind me how far I've come and how much I'm still growing. I can refactor, restructure, and polish today but I keep this project exactly as it was on day one so I never forget the rush of figuring things out for the first time.
 
-If you wandered in here looking for something fancy, sorry to disappoint. But if you’re looking for proof that progress is real, this repo is my favorite kind of evidence.
+If you wandered in here looking for something fancy, sorry to disappoint. But if you want something more interesting, check out my other, more complex repositories on GitHub.
